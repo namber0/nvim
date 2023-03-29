@@ -22,7 +22,7 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
-Plug 'https://github.com/bluz71/vim-nightfly-colors.git'
+Plug 'https://github.com/folke/tokyonight.nvim.git'
 
 set encoding=UTF-8
 
@@ -35,7 +35,7 @@ nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 nmap <F8> :TagbarToggle<CR>
 
 :set termguicolors
-:colorscheme nightfly
+:colorscheme tokyonight-night
 :set completeopt-=preview " For No Previews
 
 let g:NERDTreeDirArrowExpandable="+"
