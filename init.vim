@@ -28,9 +28,13 @@ set encoding=UTF-8
 
 call plug#end()
 
-nnoremap <leader>w :NERDTreeFocus<CR>
+nnoremap <leader>f :NERDTreeFocus<CR>
 nnoremap <leader>e :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
+
+nnoremap <leader>t :tabnew<CR>
+nnoremap <leader>w :tabclose<CR>
+nnoremap <leader>n :tabnext<CR>
 
 nmap <F8> :TagbarToggle<CR>
 
