@@ -23,6 +23,7 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'https://github.com/folke/tokyonight.nvim.git'
+Plug 'junegunn/fzf'
 
 set encoding=UTF-8
 
@@ -31,6 +32,7 @@ call plug#end()
 nnoremap <leader>f :NERDTreeFocus<CR>
 nnoremap <leader>e :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
+nnoremap <leader>p :FZF<CR>
 
 nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>w :tabclose<CR>
