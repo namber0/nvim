@@ -23,7 +23,8 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'https://github.com/folke/tokyonight.nvim.git'
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf' " Fuzzy finder
+Plug 'mfussenegger/nvim-dap' " Neovim DAP debugger
 
 set encoding=UTF-8
 
