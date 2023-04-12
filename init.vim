@@ -25,6 +25,7 @@ Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple c
 Plug 'https://github.com/folke/tokyonight.nvim.git'
 Plug 'junegunn/fzf' " Fuzzy finder
 Plug 'mfussenegger/nvim-dap' " Neovim DAP debugger
+Plug 'vimwiki/vimwiki' " Vim wiki
 
 set encoding=UTF-8
 
