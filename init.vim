@@ -41,6 +41,8 @@ nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>w :tabclose<CR>
 nnoremap <leader>n :tabnext<CR>
 
+nnoremap <leader>pr :MarkdownPreview<CR>
+
 nmap <F8> :TagbarToggle<CR>
 
 :set termguicolors
