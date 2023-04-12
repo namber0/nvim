@@ -26,6 +26,7 @@ Plug 'https://github.com/folke/tokyonight.nvim.git'
 Plug 'junegunn/fzf' " Fuzzy finder
 Plug 'mfussenegger/nvim-dap' " Neovim DAP debugger
 Plug 'vimwiki/vimwiki' " Vim wiki
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' } " vim markdown preview
 
 set encoding=UTF-8
 
