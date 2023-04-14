@@ -32,6 +32,8 @@ set encoding=UTF-8
 
 call plug#end()
 
+:let g:NERDTreeWinSize=26
+
 nnoremap <leader>f :NERDTreeFocus<CR>
 nnoremap <leader>e :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
