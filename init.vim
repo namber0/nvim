@@ -77,4 +77,4 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
 inoremap <S-Tab> <C-d>
 
-
+:set ft=nasm
