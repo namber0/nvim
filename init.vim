@@ -27,6 +27,7 @@ Plug 'junegunn/fzf' " Fuzzy finder
 Plug 'mfussenegger/nvim-dap' " Neovim DAP debugger
 Plug 'vimwiki/vimwiki' " Vim wiki
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' } " vim markdown preview
+Plug 'morhetz/gruvbox'
 
 set encoding=UTF-8
 
@@ -47,8 +48,9 @@ nnoremap <leader>pr :MarkdownPreview<CR>
 
 nmap <F8> :TagbarToggle<CR>
 
-:set termguicolors
-:colorscheme tokyonight-night
+let g:gruvbox_constrast_dark='hard'
+:colorscheme gruvbox
+:set background=dark
 :set completeopt-=preview " For No Previews
 
 let g:NERDTreeDirArrowExpandable="+"
