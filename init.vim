@@ -48,9 +48,11 @@ nnoremap <leader>pr :MarkdownPreview<CR>
 
 nmap <F8> :TagbarToggle<CR>
 
+let g:gruvbox_transparent_bg = 1
 let g:gruvbox_constrast_dark='hard'
-:colorscheme gruvbox
 :set background=dark
+:set termguicolors 
+:colorscheme gruvbox
 :set completeopt-=preview " For No Previews
 
 let g:NERDTreeDirArrowExpandable="+"
