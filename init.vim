@@ -6,6 +6,7 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
+:set clipboard=unnamedplus
 
 :let mapleader = " "
 
@@ -27,6 +28,7 @@ Plug 'junegunn/fzf' " Fuzzy finder
 Plug 'mfussenegger/nvim-dap' " Neovim DAP debugger
 Plug 'morhetz/gruvbox'
 Plug 'vhda/verilog_systemverilog.vim'
+Plug 'suoto/hdlcc'
 
 set encoding=UTF-8
 
